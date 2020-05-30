@@ -6,7 +6,7 @@ function Contact() {
     return (
     <div>
         <div className="center">
-            <div className="card border-dark mb-3; center" style={{maxwidth: "60%"}}>
+            <div className="card border-dark mb-3; center" style={{maxWidth: "60%"}}>
                 <h4 className="card-text">
                     Please don't hesitate to reach out to me.
             </h4>

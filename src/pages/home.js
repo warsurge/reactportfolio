@@ -1,13 +1,13 @@
 import React from "react"
 
-const Surge = "randomSurge.jpg"
+import Surge from "../components/randomSurge.jpg"
 
 function Home(){
     return(
         <div className="center">
-        <div className="card border-dark mb-3; center" style={{maxwidth: "80%"}}>
-            <h2 class="card-title" style={{textalign: "center"}}>About Me</h2>
-            <div className="card text-center" style={{maxwidth: "75%"}}>
+        <div className="card border-dark mb-3; center" style={{maxWidth: "80%"}}>
+            <h2 class="card-title" style={{textAlign: "center"}}>About Me</h2>
+            <div className="card text-center" style={{maxWidth: "75%"}}>
                 <div className="card-body">
 
                     <img src= {Surge} className="rounded float-left" alt="Surge in Chicago" style={{width: "65%"}} />
