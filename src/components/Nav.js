@@ -12,13 +12,13 @@ function Nav(){
         <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                    <a className="nav-link" href="/">About Me</a>
+                    <a className="nav-link" href="/reactportfolio">About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact<span class="sr-only">(current)</span></a>
+                    <a className="nav-link" href="/reactportfolio/contact">Contact<span class="sr-only">(current)</span></a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/portfolio">Portfolio</a>
+                    <a className="nav-link" href="/reactportfolio/portfolio">Portfolio</a>
                 </li>
 
             </ul>
