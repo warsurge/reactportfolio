@@ -4,9 +4,9 @@ import React from "react"
 function Contact() {
 
     return (
-
+    <div>
         <div className="center">
-            <div className="card border-dark mb-3; center" style="max-width: 60%">
+            <div className="card border-dark mb-3; center" >
                 <h4 className="card-text">
                     Please don't hesitate to reach out to me.
             </h4>
@@ -25,8 +25,8 @@ function Contact() {
             </h4>
             </div>
         </div>
-
-
+    </div>
+        
 
     )
 }

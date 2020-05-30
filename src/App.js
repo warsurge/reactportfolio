@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Home from "../src/pages/home"
 import Contact from "../src/pages/contact"
 import Portfolio from "../src/pages/portfolio"
@@ -12,27 +12,22 @@ function App() {
   return (
     <BrowserRouter>
       <Nav />
+
       <Switch>
-        <Route exact path="/">
+        <Route exact path={["/", "/home"]}>
           <Home />
         </Route>
-
-
-
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-
-
-
-        <Route exact path="/portfolio">
+        <Route exact path={["/portfolio"]}>
           <Portfolio />
+        </Route>
+        <Route exact path={["/contact"]}>
+          <Contact />
         </Route>
 
       </Switch>
       <Footer />
-    </BrowserRouter>
 
+    </BrowserRouter>
   );
 }
 

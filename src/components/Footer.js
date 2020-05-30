@@ -31,7 +31,7 @@ function Footer(){
                     </div>
 
                     <div className="col-lg-4 col-md-4 col-sm-12">
-                        <a href={Resume}>
+                        <a href= "Serge Resume.pdf">
                             <img src={Adobe}
                                 alt="Adobe Logo" className="img-thumbnail" />
                         </a>
